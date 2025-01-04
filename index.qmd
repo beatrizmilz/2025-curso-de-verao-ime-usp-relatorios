@@ -1,0 +1,59 @@
+# Informações sobre o curso 
+
+::: callout-warning
+## Atenção!
+
+As inscrições ocorrem exclusivamente pelo site do [Programa de Verão IME-USP](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
+:::
+
+## Sobre o curso
+
+Neste curso, utilizaremos o Quarto (<https://quarto.org/>), e conheceremos como criar relatórios reprodutíveis, como: listas de exercícios, relatórios, apresentações em HTML, apresentações em powerpoint, relatórios em word, relatórios interativos, entre outros.
+
+Aprenderemos também a criar relatórios reprodutíveis utilizando relatórios parametrizados, que permitem especificar parâmetros para customizar a análise, o que é muito útil para criar relatórios que podem ser reutilizados.
+
+Também aprenderemos a disponibilizar o conteúdo criado no curso de forma online.
+
+## Calendário
+
+- **Carga horária:** 15h (5 aulas de 3h)
+
+- **Datas:** 14/01/2025, 16/01/2025, 21/01/2025, 23/01/2025, 28/01/2025.
+
+- **Horário:** 19:00 às 22:00
+
+## Acesso às aulas
+
+As aulas serão ministradas de forma remota, através da [Plataforma de Cursos de Extensão da USP](https://cursosextensao.usp.br/course/view.php?id=4166).
+
+## Temas abordados
+
+-   O que é reprodutibilidade;
+
+-   O que é o RMarkdown e o Quarto, e quais são as diferenças;
+
+-   Como criar um documento reprodutível com Quarto;
+
+-   Como disponibilizar estes documentos HTML criados com Quarto na internet para que outras pessoas consigam acessar.
+
+
+## Público Alvo
+
+-   Estudantes de graduação, profissionais do mercado e pesquisadoras(es) com interesse em tornar suas análises e códigos mais legíveis, reprodutíveis, eficientes e organizados.
+
+## Pré-requisitos
+
+É recomendado que as pessoas participantes estejam familiarizadas com o conteúdo do curso Introdução à programação em R.
+
+Obs: O material do curso de Introdução ao R, ministrado por Nathália Demétrio, está disponível [neste link](https://github.com/natydemi/intro_R_language/tree/master), caso queira consultar.
+
+## Método avaliativo
+
+-   Entrega do trabalho prático final
+
+-   Para receber o certificado, é necessário ter **frequência superior à 75%** e **aprovação no trabalho final**.
+
+
+## Edições passadas
+
+-   Confira a página do curso de [2024](https://beatrizmilz.github.io/2024-curso-de-verao-ime-usp-relatorios/slides), [2023](https://beatrizmilz.github.io/2023-curso-de-verao-ime-usp-relatorios/) e [2022](https://beatrizmilz.github.io/2022-curso-de-verao-ime-usp-relatorios/programacao-do-curso.html).

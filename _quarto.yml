@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: "docs/"
+book:
+  title: "Relatórios reprodutíveis com R (2025)"
+  description: "Página do curso de verão oferecido pelo IME/USP, 2025."
+  repo-url: "https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios"  
+  author: "Beatriz Milz"
+  date: "1/14/2025"
+  date-format: "MMMM [de] YYYY"
+  chapters:
+    - index.qmd
+    - instalacoes-pre-curso.qmd
+#    - referencias.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+lang: pt
+
+
+

@@ -1,0 +1,25 @@
+---
+title: "Instalações necessárias"
+---
+
+É importante que você tenha o R e o RStudio instalados em sua máquina para que possa acompanhar as aulas e realizar os exercícios.
+
+Além disso, verifique se estão atualizados. 
+
+1.  **Instalar o R** - Versão 4.1 ou superior:
+
+-   Download direto: <https://vps.fmvz.usp.br/CRAN/>
+
+-   Tutorial: <https://livro.curso-r.com/1-1-instalacao-do-r.html>
+
+2.  **Instalar o RStudio**:
+
+-   Download direto: <https://posit.co/download/rstudio-desktop/#download>
+
+-   Tutorial: <https://livro.curso-r.com/1-2-instalacao-do-rstudio.html>
+
+
+
+
+
+- Caso você tenha dificuldade em instalar o R e o RStudio, você pode utilizar a Posit Cloud gratuitamente: <https://posit.cloud/>
