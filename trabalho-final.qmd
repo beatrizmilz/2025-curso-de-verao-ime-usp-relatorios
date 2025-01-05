@@ -1,0 +1,84 @@
+---
+title: "Trabalho final"
+code-link: true
+---
+
+**Objetivo:** Você deverá criar um documento com Quarto e compartilhar conosco. Esse trabalho final oferece orientações para que você pratique o que foi apresentado no curso.
+
+**RECOMENDAÇÃO**: Faça as etapas sugeridas após cada aula.
+
+**ATENÇÃO**: O recebimento do certificado está vinculado à entrega e aprovação deste trabalho final, além de ter frequência mínima de 75%.
+
+## Etapas pré-codigo
+
+-   Pense no tipo de relatório que quer criar, qual é o objetivo do mesmo e o público-alvo. 
+
+
+- Exemplos:
+
+    - Uma análise de dados da pesquisa, a ser apresentada para outras pessoas pesquisadoras.
+
+    - Um tutorial com código em R ou Python.
+
+    - Uma página pessoal de divulgação.
+    
+    - Um artigo científico (não precisa ser completo, pode ser a estrutura, mas é bom usar código para fazer as tabelas e gráficos).
+    
+    - Um dashboard.
+    
+    - Um livro (estrutura, primeiros capítulos, etc).
+
+
+-   Escolha uma base de dados para utilizar! Segue algumas ideias:
+
+    -   Alguma que você **tenha interesse**!
+
+    -   Pacote [dados](https://cienciadedatos.github.io/dados/)
+
+    -   Repositório [tidytuesday](https://github.com/rfordatascience/tidytuesday) (em inglês)
+
+    -   Alguma que você **tenha interesse**!
+
+## Passo a passo com R
+
+1)  Crie um Projeto do RStudio para realizar a tarefa. Lembre-se de boas práticas para nomear o projeto: não utilize espaços, caracteres especiais, acentuação. O seu projeto deverá chamar "trabalho_relatorios_nome_sobrenome" (tudo minúsculo, separado por `_`). Ex: `trabalho_relatorios_beatriz_milz`
+
+Você pode criar um projeto simples, ou um projeto do Quarto (que já tem a estrutura necessária para alguns tipos de projeto, como blog, livro, website, etc).
+
+**Todos os passos seguintes serão realizados neste projeto criado.**
+
+2)  Crie a estrutura do seu projeto: uma pasta `dados`, onde adicionará bases de dados (se necessário), e uma pasta `img` para imagens (se necessário). Você pode criar manualmente, ou utilizando a função `fs::dir_create()`:
+
+```{r}
+#| eval: false
+fs::dir_create("dados")
+fs::dir_create("img")
+```
+
+3)  Crie o arquivo que será utilizado.
+
+> File -\> New File -\> Quarto document.
+
+Você deve salvar o arquivo com o nome `index.qmd`. Clique em `Render` assim que o arquivo for criado, e confira se o arquivo `index.html` foi gerado sem erros.
+
+4)  Agora você pode usar sua criatividade e adicionar conteúdo ao relatório.
+
+Isso depende do objetivo do relatório e o público-alvo.
+
+Pense em quais opções de chunk utilizar em cada caso: você pretende mostrar o código ou escondê-lo? Faz sentido para o seu público alvo ler o seu código?
+
+Adicione pelo menos:
+
+-   Um parágrafo de texto, com marcações.
+
+-   Um link para uma página da internet.
+
+-   Uma imagem.
+
+-   Uma tabela.
+
+-   Caso saiba usar ggplot, tente adicionar um gráfico.
+
+-   Caso seja uma análise de pesquisa, tente adicionar referências usando `.bib`.
+
+5) Para enviar, você pode compactar a pasta do projeto (criar um arquivo `.zip`) e enviar na plataforma do curso. Alternativamente, você pode compartilhar o link do repositório no GitHub.

@@ -1,0 +1,41 @@
+---
+title: "Slides e materiais por aula"
+---
+
+## Revisão de conceitos úteis
+
+-   [O que é o R?](https://www.instagram.com/p/C2DDu-MLZ4W/)
+
+-   [O que é o RStudio?](https://www.instagram.com/p/C2IJPYqLjIe/)
+
+-   [Versões gratuitas do RStudio](https://www.instagram.com/p/C2Xh63gLWIM/?img_index=4)
+
+- [O que é o tidyverse?](https://www.instagram.com/p/C2fQI7FrlC2/?img_index=1)
+
+<!-- ## Códigos -->
+
+<!-- - [Baixe o repositório do GitHub](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/archive/refs/heads/main.zip)  -->
+
+## Slides
+
+-   [Introdução ao Curso](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/01-intro-curso.html)
+
+-   [Introdução ao Quarto](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/02-intro-quarto.html)
+
+-   [Introdução ao conceito de reprodutibilidade](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/03-reprodutibilidade.html)
+
+-   [Elementos úteis para relatórios acadêmicos](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/04-elementos-acad.html)
+
+-   [Relatórios com parâmetros](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/05-parametros.html)
+
+
+<!-- -   [Feedbacks - Trabalho final](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/06-feedback-trabalho-final.html) -->
+
+
+## Materiais antigos
+
+-   [Introdução ao RMarkdown](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/extra-1-intro-rmarkdown.html)
+
+
+
+

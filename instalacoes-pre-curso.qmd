@@ -1,14 +1,17 @@
 ---
 title: "Instalações necessárias"
+code-link: true
 ---
 
-É importante que você tenha o R e o RStudio instalados em sua máquina para que possa acompanhar as aulas e realizar os exercícios.
+## R e RStudio
+
+É importante que você tenha o R e o RStudio instalados em sua máquina para que possa acompanhar as aulas e realizar os exercícios. Caso você tenha dificuldade em instalar o R e o RStudio, você pode utilizar a Posit Cloud gratuitamente: <https://posit.cloud/>
 
 Além disso, verifique se estão atualizados. 
 
 1.  **Instalar o R** - Versão 4.1 ou superior:
 
--   Download direto: <https://vps.fmvz.usp.br/CRAN/>
+-   Download direto: <https://cran.r-project.org/>
 
 -   Tutorial: <https://livro.curso-r.com/1-1-instalacao-do-r.html>
 
@@ -18,8 +21,36 @@ Além disso, verifique se estão atualizados.
 
 -   Tutorial: <https://livro.curso-r.com/1-2-instalacao-do-rstudio.html>
 
+## Quarto
+
+O [Quarto](https://quarto.org/) é instalado junto ao RStudio, porém podemos instalar separadamente. 
+
+Para instalar a versão mais recente do Quarto, faça o download do arquivo de instalação na página oficial: <https://quarto.org/docs/get-started/>
+
+Para verificar a versão instalada, execute no terminal:
+
+```{bash}
+quarto --version
+```
+
+Alternativamente, você pode verificar executando essa função em R:
+
+```{r}
+quarto::quarto_version()
+```
 
 
 
+## Pacotes do R
 
-- Caso você tenha dificuldade em instalar o R e o RStudio, você pode utilizar a Posit Cloud gratuitamente: <https://posit.cloud/>
+Durante o curso, utilizaremos diversos pacotes do R. Para instalar os pacotes necessários, execute o código abaixo:
+
+```{r}
+#| eval: false
+pacotes <- c("tidyverse", "quarto", "knitr",
+             "here", "janitor", "fs",
+             "sessioninfo")
+
+install.packages(pacotes)
+```
+

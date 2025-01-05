@@ -1,0 +1,112 @@
+---
+title: "Introdução ao curso"
+subtitle: 'Relatórios reprodutíveis com R - Curso de Verão IME-USP 2025' 
+author: "Ministrante: Beatriz Milz"
+format: 
+  revealjs:
+    width: 1600
+    height: 900  
+    toc: false
+    toc_float: true
+    toc-depth: 2
+    toc-location: body
+    toc-title: "Conteúdos"
+    logo: "https://www.ime.usp.br/verao/assets/images/logo_verao.png" 
+    footer: "[Relatórios reprodutíveis com R (2025) - Programa de Verão IME-USP](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/)."
+    theme: ["custom.scss"]
+    slide-number: c/t
+    show-slide-number: all
+    hash-type: number
+    preview-links: false    
+editor: visual
+---
+
+# Boas vindas!
+
+# Ministrantes e monitoria
+
+## Quem são vocês?
+
+-   Qual é o seu nome?
+
+-   Onde você está? Ex: Osasco - SP
+
+-   Qual é o seu pacote favorito em R?
+
+-   Compartilhe conosco uma série, livro ou filme que indica!
+
+## Sobre hoje
+
+-   Alinhamentos
+
+-   Sobre o curso
+
+-   Introdução ao Quarto
+
+# Alinhamentos!
+
+## Alinhamento: respeito e gentileza
+
+-   Seja gentil! Estamos aqui para aprender, e estamos em etapas diferentes do aprendizado.
+
+-   Não existe "pergunta burra". Não deveria ser comum ouvir "como você não sabe isso ainda?".
+
+## Código de conduta
+
+-   Objetivo é proporcionar uma experiência de livre de assédio e inclusiva para todas as pessoas (incluindo alunas, alunos, professores, monitores, equipe da secretaria do IME/USP, etc).
+
+-   Qualquer pessoa que viole estas regras pode ser advertida ou removida do curso, conforme critérios das pessoas docentes.
+
+-   Leia completo em: <https://saopaulo2019.satrdays.org/codigodeconduta/>
+
+# Sobre o curso!
+
+## Plataformas utilizadas
+
+-   Plataforma USP: <https://cursosextensao.usp.br/course/view.php?id=4166>
+
+-   Site do curso: <https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/>
+
+## Gravação das aulas
+
+-   As aulas serão gravadas.
+
+-   Caso a aula comece e não esteja sendo gravada, por favor nos avise no chat :)
+
+![](images/paste-66D271C4.png){fig-align="center"}
+
+## Dúvidas
+
+-   De preferência, não envie no email :)
+
+-   Durante as aulas: enviem dúvidas no chat.
+
+-   Fora do horário de aulas:
+
+    -   Durante o oferecimento do curso: na plataforma USP Extensão.
+
+## Requisitos para o certificado
+
+-   Teremos um trabalho final obrigatório para o recebimento do certificado.
+
+-   Certificado = Ter **frequência igual ou superior à 75%** (ou seja, pode ter 1 falta) + entrega do trabalho final.
+
+-   ATENÇÃO: Vocês precisam marcar na plataforma USP a presença, **durante** o horário da aula.
+
+## Trabalho final
+
+**Objetivo:** Você deverá criar um documento com Quarto e compartilhar conosco (seja em word, pdf ou HTML). Esse trabalho final é importante para que você pratique o que foi discutido no curso.
+
+Mais informações em: [Trabalho final](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/trabalho-final.html)
+
+## Objetivos de aprendizagem
+
+Que vocês saibam ao final do curso:
+
+-   Noções de reprodutibilidade
+
+-   Como criar documentos usando Quarto
+
+-   Como exportar esses documentos em word, PDF e HTML.
+
+-   Como disponibilizar o documento na internet.

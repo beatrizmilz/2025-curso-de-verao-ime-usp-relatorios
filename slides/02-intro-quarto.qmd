@@ -1,0 +1,225 @@
+---
+title: "Introdução ao Quarto"
+subtitle: 'Relatórios reprodutíveis com R - Curso de Verão IME-USP 2025' 
+author: "Ministrante: Beatriz Milz"
+format: 
+  revealjs:
+    width: 1600
+    height: 900  
+    toc: false
+    toc_float: true
+    toc-depth: 2
+    toc-location: body
+    toc-title: "Conteúdos"
+    logo: "https://www.ime.usp.br/verao/assets/images/logo_verao.png" 
+    footer: "[Relatórios reprodutíveis com R (2025) - Programa de Verão IME-USP](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/)."
+    theme: ["custom.scss"]
+    slide-number: c/t
+    show-slide-number: all
+    hash-type: number
+    preview-links: false    
+editor: visual
+---
+
+## Objetivos de aprendizagem
+
+Responder as seguintes perguntas....
+
+⬜ O que é o Quarto?
+
+⬜ Qual é a diferença entre o Quarto e o RMarkdown?
+
+⬜ Como criar um documento simples ?
+
+# O que é o Quarto?
+
+## Seria o Quarto...
+
+::: r-stack
+![](images/paste-614B8F2C.png){.fragment fig-align="center"}
+
+![](images/paste-23FE8FE7.png){.fragment .absolute top="15%" left="40%" width="400" height="400"}
+:::
+
+## O que é o Quarto?
+
+-   O Quarto é um sistema de escrita técnica e científica, de código aberto.
+
+![A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto](images/quarto_schematic.png){fig-align="center" out.width="50%"}
+
+::: footer
+Arte por [Allison Horst](https://mobile.twitter.com/allison_horst).
+:::
+
+## Ciclo da ciência de dados
+
+```{r, out.width="65%"}
+#| fig-align: "center"
+knitr::include_graphics("https://beatrizmilz.github.io/python-brasil-2021-reticulate/img/environmental-data-science-r4ds-general.png")
+```
+
+Fonte: Conceito do ciclo de ciência de dados apresentado por [Hadley Wickham no livro R for Data Science](https://r4ds.had.co.nz/introduction.html), ilustração por [Allison Horst](https://github.com/allisonhorst).
+
+## Pacote R Markdown
+
+-   Criado e mantido pela [RStudio](https://rstudio.com/)
+
+-   Princípio: arquivos onde escrevemos textos e marcamos com `markdown`, mas também podemos adicionar códigos que são executados.
+
+-   Extensão `.Rmd`
+
+-   Possibilita a utilização de códigos `R`, `Python`, `Markdown`, `HTML`, `CSS`, `SQL`, e outros em um único arquivo.
+
+-   É um **pacote em R**, portanto depende do R.
+
+```{r, out.width="70%", fig.cap="<center><b>Logo: <a href='https://rmarkdown.rstudio.com'>Pacote rmarkdown</a></b></center>"}
+#| fig-align: "center"
+knitr::include_graphics("https://beatrizmilz.github.io/python-brasil-2021-reticulate/img/hex-rmarkdown.png")
+```
+
+## Por que o Quarto existe?
+
+-   **O Quarto é a nova geração do R Markdown!**
+
+-   O rmarkdown é um pacote em R. Para usá-lo, é necessário ter o R instalado (mesmo que o seu arquivo não tenha conteúdos em R).
+
+-   O R Markdown é uma ferramenta muito boa para escrita técnica e científica reprodutível, possibilitando criar vários tipos de documentos. Porém, **o seu uso acaba ficando limitado às pessoas que usam R**.
+
+-   **O Quarto é um software novo, que não depende do R**!
+
+::: notes
+-   Por exemplo: Você pode usar o VSCode como IDE, escrever um documento com código em Python e gerar o documento final. Tudo isso sem precisar ter o R e/ou RStudio instalados.
+:::
+
+## Quais são as similaridades?
+
+-   A estrutura do arquivo é muito similar! Para muitos arquivos, há compatibilidade (bastando alterar a extensão de `.Rmd` para `.qmd`).
+
+-   Podemos adicionar código em R, Python, Julia, etc etc.
+
+-   Podemos criar diversos tipos de arquivos, como: páginas da internet (arquivos `.html`), PDFs, `.docx`, apresentações, documentos interativos, livros, e mais está sendo produzido :)
+
+## Quarto na linha de comando
+
+-   O Quarto é um CLI: Command Line Interface - Interface de linha de comando.
+
+-   Podemos usar o Quarto no terminal.
+
+## 
+
+```{bash}
+#| echo: true
+quarto help
+```
+
+## Como começar a usar o quarto
+
+[Instalar o Quarto:](https://quarto.org/docs/get-started/)
+
+<br>
+
+<center><a href='https://quarto.org/docs/get-started/'> ![](images/install-quarto.png){style="width: 80%; !important" fig-alt="Print screen da página de instalação do Quarto" fig-align="center"} </a></center>
+
+# Como criar um documento simples?
+
+## Engines
+
+-   Ao criar um novo arquivo com Quarto, podemos escolher entre duas *engines*: knitr ou jupyter.
+
+### Com knitr
+
+Caso não tenha o pacote knitr instalado, execute no console:
+
+``` r
+install.packages("knitr")
+```
+
+<br>
+
+### Com jupyter
+
+Caso não tenha o jupyter instalado, execute no terminal:
+
+```         
+python3 -m pip install jupyter
+```
+
+## Criar novo arquivo: New file
+
+<center>![](images/rstudio-newfile.png){style="width: 90%; !important" fig-alt="Print screen da IDE RStudio" fig-align="center"}</center>
+
+## Renderizar o arquivo: Render file
+
+<center>![](images/rstudio-cloud-2.png){style="width: 90%; !important" fig-alt="Print screen da IDE RStudio Cloud" fig-align="center"}</center>
+
+## Vamos praticar! {.center}
+
+# Como alterar entre formatos de arquivos?
+
+## Altere o cabeçalho do arquivo! {auto-animate="true"}
+
+``` r
+---
+title: "Título"
+format: html
+editor: visual
+---
+```
+
+## Word {auto-animate="true"}
+
+``` r
+---
+title: "Título"
+format: docx
+editor: visual
+---
+```
+
+## PDF {auto-animate="true"}
+
+``` r
+---
+title: "Título"
+format: pdf
+editor: visual
+---
+```
+
+<!-- ## Apresentação {auto-animate="true"} -->
+
+<!-- ``` r -->
+
+<!-- --- -->
+
+<!-- title: "Título" -->
+
+<!-- format: revealjs -->
+
+<!-- editor: visual -->
+
+<!-- --- -->
+
+<!-- ``` -->
+
+<!-- -   Os slides são separados considerando os títulos e subtítulos: `#` e `##`. -->
+
+<!-- -   Use `#` para criar uma nova seção. -->
+
+<!-- -   Use `##` para criar um novo slide. -->
+
+## Vamos praticar! {.center}
+
+<!-- ## Onde aprender mais... -->
+
+<!-- -   [Documentação do Quarto](https://quarto.org/docs/gallery/) e a [Galeria](https://quarto.org/docs/gallery). -->
+
+<!-- -   [Não falamos do Quarto](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/) <br>Post em inglês por [Alison Hill](https://www.apreshill.com/) -->
+
+<!-- -   [Reproducible Authoring with Quarto](https://www.youtube.com/watch?v=6p4vOKS6Xls&t=67s) <br> Apresentação em inglês por [Mine Çetinkaya-Rundel](https://mine-cr.com/) -->
+
+<!-- -   [Conteúdos sobre o Quarto na RStudio Conf 2022](https://quarto.org/docs/blog/posts/2022-06-21-rstudio-conf-2022-quarto/) -->
+
+<!-- -   [Workshop Get Started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/) -->
+
+<!-- -   [Awesome Quarto](https://github.com/mcanouil/awesome-quarto) -->

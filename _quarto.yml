@@ -1,6 +1,12 @@
 project:
   type: book
   output-dir: "docs/"
+  resources:
+    - "slides/*.html"
+    - "slides/*_files/"
+  # render: 
+  #   - "!materiais/"  
+  
 book:
   title: "Relatórios reprodutíveis com R (2025)"
   description: "Página do curso de verão oferecido pelo IME/USP, 2025."
@@ -9,8 +15,14 @@ book:
   date: "1/14/2025"
   date-format: "MMMM [de] YYYY"
   chapters:
-    - index.qmd
-    - instalacoes-pre-curso.qmd
+    - part: "Pré-curso"
+      chapters:
+      - index.qmd
+      - instalacoes-pre-curso.qmd
+      - trabalho-final.qmd
+    - part: "Materiais"
+      chapters:
+      - slides.qmd
 #    - referencias.qmd
 
 bibliography: references.bib
@@ -18,8 +30,9 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    footer: "[Relatórios reprodutíveis com R (2025) - Programa de Verão IME-USP](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/)."
 
 lang: pt
-
+code-link: true
 
 
