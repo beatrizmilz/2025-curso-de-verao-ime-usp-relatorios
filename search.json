@@ -6,6 +6,7 @@
     "section": "",
     "text": "1 Informações sobre o curso",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "1.1 Sobre o curso",
     "text": "1.1 Sobre o curso\nNeste curso, utilizaremos o Quarto (https://quarto.org/), e conheceremos como criar relatórios reprodutíveis, como: listas de exercícios, relatórios, apresentações em HTML, apresentações em powerpoint, relatórios em word, relatórios interativos, entre outros.\nAprenderemos também a criar relatórios reprodutíveis utilizando relatórios parametrizados, que permitem especificar parâmetros para customizar a análise, o que é muito útil para criar relatórios que podem ser reutilizados.\nTambém aprenderemos a disponibilizar o conteúdo criado no curso de forma online.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "1.2 Calendário",
     "text": "1.2 Calendário\n\nCarga horária: 15h (5 aulas de 3h)\nDatas: 14/01/2025, 16/01/2025, 21/01/2025, 23/01/2025, 28/01/2025.\nHorário: 19:00 às 22:00",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -36,6 +39,7 @@
     "section": "1.3 Acesso às aulas",
     "text": "1.3 Acesso às aulas\nAs aulas serão ministradas de forma remota, através da Plataforma de Cursos de Extensão da USP.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -46,6 +50,7 @@
     "section": "1.4 Temas abordados",
     "text": "1.4 Temas abordados\n\nO que é reprodutibilidade;\nO que é o RMarkdown e o Quarto, e quais são as diferenças;\nComo criar um documento reprodutível com Quarto;\nComo disponibilizar estes documentos HTML criados com Quarto na internet para que outras pessoas consigam acessar.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -56,6 +61,7 @@
     "section": "1.5 Público Alvo",
     "text": "1.5 Público Alvo\n\nEstudantes de graduação, profissionais do mercado e pesquisadoras(es) com interesse em tornar suas análises e códigos mais legíveis, reprodutíveis, eficientes e organizados.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -64,8 +70,9 @@
     "href": "index.html#pré-requisitos",
     "title": "Relatórios reprodutíveis com R (2025)",
     "section": "1.6 Pré-requisitos",
-    "text": "1.6 Pré-requisitos\nÉ recomendado que as pessoas participantes estejam familiarizadas com o conteúdo do curso Introdução à programação em R.\nObs: O material do curso de Introdução ao R, ministrado por Nathália Demétrio, está disponível neste link, caso queira consultar.",
+    "text": "1.6 Pré-requisitos\nÉ recomendado que as pessoas participantes estejam familiarizadas com o conteúdo da seção “Visão geral”do livro R para Ciência de Dados (2ed) (disponível gratuitamente online, em português).",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -76,6 +83,7 @@
     "section": "1.7 Método avaliativo",
     "text": "1.7 Método avaliativo\n\nEntrega do trabalho prático final\nPara receber o certificado, é necessário ter frequência superior à 75% e aprovação no trabalho final.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
@@ -86,47 +94,129 @@
     "section": "1.8 Edições passadas",
     "text": "1.8 Edições passadas\n\nConfira a página do curso de 2024, 2023 e 2022.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
     ]
   },
   {
     "objectID": "instalacoes-pre-curso.html",
     "href": "instalacoes-pre-curso.html",
-    "title": "2  Instalações necessárias",
+    "title": "\n2  Instalações necessárias\n",
     "section": "",
-    "text": "É importante que você tenha o R e o RStudio instalados em sua máquina para que possa acompanhar as aulas e realizar os exercícios.\nAlém disso, verifique se estão atualizados.\n\nInstalar o R - Versão 4.1 ou superior:\n\n\nDownload direto: https://vps.fmvz.usp.br/CRAN/\nTutorial: https://livro.curso-r.com/1-1-instalacao-do-r.html\n\n\nInstalar o RStudio:\n\n\nDownload direto: https://posit.co/download/rstudio-desktop/#download\nTutorial: https://livro.curso-r.com/1-2-instalacao-do-rstudio.html\nCaso você tenha dificuldade em instalar o R e o RStudio, você pode utilizar a Posit Cloud gratuitamente: https://posit.cloud/",
+    "text": "2.1 R e RStudio\nÉ importante que você tenha o R e o RStudio instalados em sua máquina para que possa acompanhar as aulas e realizar os exercícios. Caso você tenha dificuldade em instalar o R e o RStudio, você pode utilizar a Posit Cloud gratuitamente: https://posit.cloud/\nAlém disso, verifique se estão atualizados.",
     "crumbs": [
+      "Pré-curso",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Instalações necessárias</span>"
+    ]
+  },
+  {
+    "objectID": "instalacoes-pre-curso.html#r-e-rstudio",
+    "href": "instalacoes-pre-curso.html#r-e-rstudio",
+    "title": "\n2  Instalações necessárias\n",
+    "section": "",
+    "text": "Instalar o R - Versão 4.1 ou superior:\n\n\nDownload direto: https://cran.r-project.org/\nTutorial: https://livro.curso-r.com/1-1-instalacao-do-r.html\n\n\n\nInstalar o RStudio:\n\n\nDownload direto: https://posit.co/download/rstudio-desktop/#download\nTutorial: https://livro.curso-r.com/1-2-instalacao-do-rstudio.html",
+    "crumbs": [
+      "Pré-curso",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Instalações necessárias</span>"
+    ]
+  },
+  {
+    "objectID": "instalacoes-pre-curso.html#quarto",
+    "href": "instalacoes-pre-curso.html#quarto",
+    "title": "\n2  Instalações necessárias\n",
+    "section": "\n2.2 Quarto",
+    "text": "2.2 Quarto\nO Quarto é instalado junto ao RStudio, porém podemos instalar separadamente.\nPara instalar a versão mais recente do Quarto, faça o download do arquivo de instalação na página oficial: https://quarto.org/docs/get-started/\nPara verificar a versão instalada, execute no terminal:\n\nquarto --version\n\n1.6.40\n\n\nAlternativamente, você pode verificar executando essa função em R:\n\nquarto::quarto_version()\n\n[1] '1.6.40'",
+    "crumbs": [
+      "Pré-curso",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Instalações necessárias</span>"
+    ]
+  },
+  {
+    "objectID": "instalacoes-pre-curso.html#pacotes-do-r",
+    "href": "instalacoes-pre-curso.html#pacotes-do-r",
+    "title": "\n2  Instalações necessárias\n",
+    "section": "\n2.3 Pacotes do R",
+    "text": "2.3 Pacotes do R\nDurante o curso, utilizaremos diversos pacotes do R. Para instalar os pacotes necessários, execute o código abaixo:\n\npacotes &lt;- c(\"tidyverse\", \"quarto\", \"knitr\",\n             \"here\", \"janitor\", \"fs\",\n             \"sessioninfo\")\n\ninstall.packages(pacotes)",
+    "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Instalações necessárias</span>"
     ]
   },
   {
     "objectID": "trabalho-final.html",
     "href": "trabalho-final.html",
-    "title": "3  Trabalho final",
+    "title": "\n3  Trabalho final\n",
     "section": "",
     "text": "3.1 Etapas pré-codigo\nObjetivo: Você deverá criar um documento com Quarto e compartilhar conosco. Esse trabalho final oferece orientações para que você pratique o que foi apresentado no curso.\nRECOMENDAÇÃO: Faça as etapas sugeridas após cada aula.\nATENÇÃO: O recebimento do certificado está vinculado à entrega e aprovação deste trabalho final, além de ter frequência mínima de 75%.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabalho final</span>"
     ]
   },
   {
     "objectID": "trabalho-final.html#etapas-pré-codigo",
     "href": "trabalho-final.html#etapas-pré-codigo",
-    "title": "3  Trabalho final",
+    "title": "\n3  Trabalho final\n",
     "section": "",
-    "text": "Pense no tipo de relatório que quer criar, qual é o objetivo do mesmo e o público-alvo.\nExemplos:\n\nUma análise de dados da pesquisa, a ser apresentada para outras pessoas pesquisadoras.\nUm tutorial com código em R ou Python.\nUma página pessoal de divulgação.\nUm artigo científico (não precisa ser completo, pode ser a estrutura, mas é bom usar código para fazer as tabelas e gráficos).\nUm dashboard.\nUm livro (estrutura, primeiros capítulos, etc).\n\nEscolha uma base de dados para utilizar! Segue algumas ideias:\n\nAlguma que você tenha interesse!\nPacote dados\nRepositório tidytuesday (em inglês)\nAlguma que você tenha interesse!",
+    "text": "Pense no tipo de relatório que quer criar, qual é o objetivo do mesmo e o público-alvo.\n\nExemplos:\n\nUma análise de dados da pesquisa, a ser apresentada para outras pessoas pesquisadoras.\nUm tutorial com código em R ou Python.\nUma página pessoal de divulgação.\nUm artigo científico (não precisa ser completo, pode ser a estrutura, mas é bom usar código para fazer as tabelas e gráficos).\nUm dashboard.\nUm livro (estrutura, primeiros capítulos, etc).\n\n\n\nEscolha uma base de dados para utilizar! Segue algumas ideias:\n\nAlguma que você tenha interesse!\nPacote dados\nRepositório tidytuesday (em inglês)\nAlguma que você tenha interesse!",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabalho final</span>"
     ]
   },
   {
     "objectID": "trabalho-final.html#passo-a-passo-com-r",
     "href": "trabalho-final.html#passo-a-passo-com-r",
-    "title": "3  Trabalho final",
-    "section": "3.2 Passo a passo com R",
-    "text": "3.2 Passo a passo com R\n\nCrie um Projeto do RStudio para realizar a tarefa. Lembre-se de boas práticas para nomear o projeto: não utilize espaços, caracteres especiais, acentuação. O seu projeto deverá chamar “trabalho_relatorios_nome_sobrenome” (tudo minúsculo, separado por _). Ex: trabalho_relatorios_beatriz_milz\n\nVocê pode criar um projeto simples, ou um projeto do Quarto (que já tem a estrutura necessária para alguns tipos de projeto, como blog, livro, website, etc).\nTodos os passos seguintes serão realizados neste projeto criado.\n\nCrie a estrutura do seu projeto: uma pasta dados, onde adicionará bases de dados (se necessário), e uma pasta img para imagens (se necessário). Você pode criar manualmente, ou utilizando a função fs::dir_create():\n\nfs::dir_create(\"dados\")\nfs::dir_create(\"img\")\n\nCrie o arquivo que será utilizado.\n\n\nFile -&gt; New File -&gt; Quarto document.\n\nVocê deve salvar o arquivo com o nome index.qmd. Clique em Render assim que o arquivo for criado, e confira se o arquivo index.html foi gerado sem erros.\n\nAgora você pode usar sua criatividade e adicionar conteúdo ao relatório.\n\nIsso depende do objetivo do relatório e o público-alvo.\nPense em quais opções de chunk utilizar em cada caso: você pretende mostrar o código ou escondê-lo? Faz sentido para o seu público alvo ler o seu código?\nAdicione pelo menos:\n\nUm parágrafo de texto, com marcações.\nUm link para uma página da internet.\nUma imagem.\nUma tabela.\nCaso saiba usar ggplot, tente adicionar um gráfico.\nCaso seja uma análise de pesquisa, tente adicionar referências usando .bib.\n\n\nPara enviar, você pode compactar a pasta do projeto (criar um arquivo .zip) e enviar na plataforma do curso.",
+    "title": "\n3  Trabalho final\n",
+    "section": "\n3.2 Passo a passo com R",
+    "text": "3.2 Passo a passo com R\n\nCrie um Projeto do RStudio para realizar a tarefa. Lembre-se de boas práticas para nomear o projeto: não utilize espaços, caracteres especiais, acentuação. O seu projeto deverá chamar “trabalho_relatorios_nome_sobrenome” (tudo minúsculo, separado por _). Ex: trabalho_relatorios_beatriz_milz\n\n\nVocê pode criar um projeto simples, ou um projeto do Quarto (que já tem a estrutura necessária para alguns tipos de projeto, como blog, livro, website, etc).\nTodos os passos seguintes serão realizados neste projeto criado.\n\nCrie a estrutura do seu projeto: uma pasta dados, onde adicionará bases de dados (se necessário), e uma pasta img para imagens (se necessário). Você pode criar manualmente, ou utilizando a função fs::dir_create():\n\n\nfs::dir_create(\"dados\")\nfs::dir_create(\"img\")\n\n\nCrie o arquivo que será utilizado.\n\n\nFile -&gt; New File -&gt; Quarto document.\n\nVocê deve salvar o arquivo com o nome index.qmd. Clique em Render assim que o arquivo for criado, e confira se o arquivo index.html foi gerado sem erros.\n\nAgora você pode usar sua criatividade e adicionar conteúdo ao relatório.\n\nIsso depende do objetivo do relatório e o público-alvo.\nPense em quais opções de chunk utilizar em cada caso: você pretende mostrar o código ou escondê-lo? Faz sentido para o seu público alvo ler o seu código?\nAdicione pelo menos:\n\nUm parágrafo de texto, com marcações.\nUm link para uma página da internet.\nUma imagem.\nUma tabela.\nCaso saiba usar ggplot, tente adicionar um gráfico.\nCaso seja uma análise de pesquisa, tente adicionar referências usando .bib.\n\n\nPara enviar, você pode compactar a pasta do projeto (criar um arquivo .zip) e enviar na plataforma do curso. Alternativamente, você pode compartilhar o link do repositório no GitHub.",
     "crumbs": [
+      "Pré-curso",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabalho final</span>"
+    ]
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "4  Slides e materiais por aula",
+    "section": "",
+    "text": "4.1 Revisão de conceitos úteis",
+    "crumbs": [
+      "Materiais",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+    ]
+  },
+  {
+    "objectID": "slides.html#revisão-de-conceitos-úteis",
+    "href": "slides.html#revisão-de-conceitos-úteis",
+    "title": "4  Slides e materiais por aula",
+    "section": "",
+    "text": "O que é o R?\nO que é o RStudio?\nVersões gratuitas do RStudio\nO que é o tidyverse?",
+    "crumbs": [
+      "Materiais",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+    ]
+  },
+  {
+    "objectID": "slides.html#slides",
+    "href": "slides.html#slides",
+    "title": "4  Slides e materiais por aula",
+    "section": "4.2 Slides",
+    "text": "4.2 Slides\n\nIntrodução ao Curso\nIntrodução ao Quarto\nIntrodução ao conceito de reprodutibilidade\nElementos úteis para relatórios acadêmicos\nRelatórios com parâmetros",
+    "crumbs": [
+      "Materiais",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+    ]
+  },
+  {
+    "objectID": "slides.html#materiais-antigos",
+    "href": "slides.html#materiais-antigos",
+    "title": "4  Slides e materiais por aula",
+    "section": "4.3 Materiais antigos",
+    "text": "4.3 Materiais antigos\n\nIntrodução ao RMarkdown",
+    "crumbs": [
+      "Materiais",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
     ]
   }
 ]
