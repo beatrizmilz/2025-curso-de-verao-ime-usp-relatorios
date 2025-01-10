@@ -1,0 +1,95 @@
+---
+title: "Informações sobre a Plataforma de Extensão da USP"
+---
+
+Este curso é oferecido na modalidade EAD, com aulas ao vivo e materiais de apoio disponíveis na [Plataforma de Extensão da USP](https://cursosextensao.usp.br/user/index.php?id=4166).
+
+::: callout-warning
+## Atenção!
+
+O acesso à aula é feito pela Plataforma de Extensão da USP, e recomendamos que façam isso o quanto antes.
+:::
+
+## Acesso à Plataforma
+
+Ao tentar acessar pela primeira vez a [plataforma](https://cursosextensao.usp.br/user/index.php?id=4166), o sistema apresentará algumas informações básicas do curso, informando que o acesso é restrito a pessoas inscritas.
+
+[![](images/extensao-sem-acesso.png){fig-align="center"}](https://cursosextensao.usp.br/user/index.php?id=4166)
+
+### Cadastro na Plataforma
+
+Antes de acessar a página do curso, é necessário fazer um cadastro na Plataforma de Extensão da USP. Para isso, [acesse este link](https://cursosextensao.usp.br/login/signup.php) e faça o cadastro.
+
+Caso você seja aluno(a) USP, você **não** deve criar um novo cadastro, e sim utilizar a Senha USP.
+
+[![](images/extensao-cadastro.png){fig-align="center"}](https://cursosextensao.usp.br/login/signup.php)
+
+### Acesso à página do curso
+
+As pessoas que se cadastraram no curso receberam um e-mail, enviado pela equipe do IME-USP, com as instruções para acessar a plataforma incluindo um código de acesso. Siga as instruções do e-mail para acessar a plataforma e a página do curso.
+
+
+Ao acessar a [página do curso](https://cursosextensao.usp.br/user/index.php?id=4166), terá acesso à uma página silimar a esta:
+
+[![](images/extensao-principal-aluno.png){fig-align="center"}](https://cursosextensao.usp.br/user/index.php?id=4166)
+
+::: callout-warning
+## Não conseguiu acessar a página do curso?
+
+Caso você não tenha conseguido acessar a página do curso, faça o cadastro na plataforma (preferencialmente com o mesmo e-mail que você usou para se inscrever no curso) e entre em contato com a [docente responsável pelo curso](mailto:milz.bea@gmail.com) para que você seja adicionado(a) à turma. Neste email, **indique o email utilizado no cadastro da Plataforma de Extensão da USP**, e adicione no título do email "Acesso à Plataforma de Extensão da USP - Curso de Verão IME/USP - Relatórios Reprodutíveis em R - 2025".
+:::
+
+
+## Acesso às aulas síncronas
+
+O acesso às aulas síncronas é feito pela Plataforma de Extensão da USP. Para acessar a chamada, acesse a página principal do curso, e clique em **"Aulas Síncronas (curso na modalidade EaD)"** (1) e então em **"Sala de Aula Remota"** (2).
+
+
+
+[![(1) - Clique no botão "Aulas Síncronas (curso na modalidade EaD)"](images/extensao-aluno-aula-sincrona-1.png){fig-align="center"}](https://cursosextensao.usp.br/user/index.php?id=4166)
+
+
+[![(2) - Clicar no botão "Sala de Aula Remota"](images/extensao-aluno-aula-sincrona-2.png){fig-align="center"}](https://cursosextensao.usp.br/user/index.php?id=4166)
+
+Na página da sala de aula remota, você encontrará uma lista com as aulas, e as respectivas datas e horários. Para acessar a aula, clique no botão azul de "Play" da aula correspondente (atenção ao horário e data da aula).
+
+
+[![](images/extensao-aluno-aula-sincrona-3.png){fig-align="center"}](https://cursosextensao.usp.br/mod/lti/view.php?id=246874)
+
+Ao clicar no botão indicado, você será direcionado(a) para a sala de aula remota, onde poderá assistir a aula ao vivo e interagir com a docente e demais participantes. Não é necessário instalar nenhum aplicativo adicional para acessar a sala de aula remota, pois o acesso é feito no navegador.
+
+![](images/extensao-aluno-aula-sincrona-4.png){fig-align="center"}
+
+## Registro de presença
+
+
+
+O registro de presença deve ser feito pela própria pessoa participante, durante o horário da aula. 
+
+::: callout-warning
+## Atenção!
+
+Para o recebimento do certificado, é necessário que a pessoa participante registre a presença em pelo menos 75% das aulas, e que entregue o [trabalho final](trabalho-final.qmd).
+:::
+
+
+Para isso, na página principal do curso, clique em ["Presença"](https://cursosextensao.usp.br/mod/attendance/view.php?id=246873):
+
+[![](images/extensao-aluno-presenca-1.png){fig-align="center"}](https://cursosextensao.usp.br/mod/attendance/view.php?id=246873)
+
+Na página de registro de presença, você poderá marcar a sua presença na aula, e também verificar a presença em aulas anteriores:
+
+[![](images/extensao-aluno-presenca-2.png){fig-align="center"}](https://cursosextensao.usp.br/mod/attendance/view.php?id=246873)
+
+<!-- Adicionar uma imagem quando tiver um exemplo -->
+
+
+## Acesso às aulas gravadas
+
+As aulas serão gravadas e disponibilizadas para as pessoas participantes. Para acessar as aulas gravadas, acesse a página de acesso às aulas síncronas.
+
+
+
+<!-- Imagem demonstrativa: Em breve! -->
+
+

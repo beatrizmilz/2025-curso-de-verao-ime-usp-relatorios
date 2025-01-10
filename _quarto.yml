@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: "docs/"
   resources:
+    - "cover.png"
     - "slides/*.html"
     - "slides/*_files/"
   # render: 
@@ -14,10 +15,12 @@ book:
   author: "Beatriz Milz"
   date: "1/14/2025"
   date-format: "MMMM [de] YYYY"
+  cover-image: "cover.png"
   chapters:
     - part: "Pré-curso"
       chapters:
       - index.qmd
+      - plataforma-usp.qmd
       - instalacoes-pre-curso.qmd
       - trabalho-final.qmd
     - part: "Materiais"

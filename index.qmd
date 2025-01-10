@@ -1,11 +1,5 @@
 # Informações sobre o curso 
 
-::: callout-warning
-## Atenção!
-
-As inscrições ocorrem exclusivamente pelo site do [Programa de Verão IME-USP](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
-:::
-
 ## Sobre o curso
 
 Neste curso, utilizaremos o Quarto (<https://quarto.org/>), e conheceremos como criar relatórios reprodutíveis, como: listas de exercícios, relatórios, apresentações em HTML, apresentações em powerpoint, relatórios em word, relatórios interativos, entre outros.
@@ -13,6 +7,12 @@ Neste curso, utilizaremos o Quarto (<https://quarto.org/>), e conheceremos como 
 Aprenderemos também a criar relatórios reprodutíveis utilizando relatórios parametrizados, que permitem especificar parâmetros para customizar a análise, o que é muito útil para criar relatórios que podem ser reutilizados.
 
 Também aprenderemos a disponibilizar o conteúdo criado no curso de forma online.
+
+::: callout-warning
+## Inscrições
+
+As inscrições ocorrem exclusivamente pelo site do [Programa de Verão IME-USP](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
+:::
 
 ## Calendário
 
