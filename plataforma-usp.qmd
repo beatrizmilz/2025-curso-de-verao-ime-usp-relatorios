@@ -22,6 +22,8 @@ Antes de acessar a página do curso, é necessário fazer um cadastro na Platafo
 
 Caso você seja aluno(a) USP, você **não** deve criar um novo cadastro, e sim utilizar a Senha USP.
 
+Caso você não tenha uma Senha USP, você precisa de um **código de convite** para fazer o cadastro. O código de convite foi enviado para as pessoas inscritas pela equipe do IME-USP. Caso você não tenha recebido o código de convite, envie um email para a [secretaria do IME/USP: raao@ime.usp.br](mailto:raao@ime.usp.br) solicitando o código de convite.
+
 [![](images/extensao-cadastro.png){fig-align="center"}](https://cursosextensao.usp.br/login/signup.php)
 
 ### Acesso à página do curso
