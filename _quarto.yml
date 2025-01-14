@@ -5,6 +5,7 @@ project:
     - "cover.png"
     - "slides/*.html"
     - "slides/*_files/"
+    - "slides/images/"
   # render: 
   #   - "!materiais/"  
   
