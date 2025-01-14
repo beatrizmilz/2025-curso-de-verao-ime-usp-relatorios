@@ -107,6 +107,8 @@ Que vocês saibam ao final do curso:
 
 -   Como criar documentos usando Quarto
 
--   Como exportar esses documentos em word, PDF e HTML.
+-   Como exportar esses documentos em word, PDF e HTML
 
--   Como disponibilizar o documento na internet.
+-   Introdução ao controle de versão com Git e GitHub
+
+-   Como disponibilizar o documento na internet
