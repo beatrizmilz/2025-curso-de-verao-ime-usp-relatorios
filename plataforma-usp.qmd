@@ -88,10 +88,14 @@ Na página de registro de presença, você poderá marcar a sua presença na aul
 
 ## Acesso às aulas gravadas
 
-As aulas serão gravadas e disponibilizadas para as pessoas participantes. Para acessar as aulas gravadas, acesse a página de acesso às aulas síncronas.
+As aulas serão gravadas e disponibilizadas para as pessoas participantes. Para acessar as aulas gravadas, acesse a página de acesso às aulas síncronas, e então clique em "ver histórico":
+
+![](images/extensao-aluno-aula-sincrona-ver-historico.png){fig-align="center"}
 
 
+Então clique em "Gravadas" para filtrar apenas as chamadas que foram gravadas, e então clique no botão de "Play" para acessar a gravação da aula desejada:
 
-<!-- Imagem demonstrativa: Em breve! -->
+![](images/extensao-aluno-acessar-gravacao.png){fig-align="center"}
+A plataforma encaminhará para uma página onde é possível assistir ao vídeo e acompanhar as perguntas e conversas no chat:
 
-
+![](images/extensao-aluno-gravacao.png){fig-align="center"}
