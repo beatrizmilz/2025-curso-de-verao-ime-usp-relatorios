@@ -1,5 +1,5 @@
 ---
-title: "Slides e materiais por aula"
+title: "Materiais por aula"
 ---
 
 ## Revisão de conceitos úteis
@@ -12,7 +12,9 @@ title: "Slides e materiais por aula"
 
 - [O que é o tidyverse?](https://www.instagram.com/p/C2fQI7FrlC2/?img_index=1)
 
-<!-- ## Códigos -->
+## Scripts de práticas em aula
+
+- [Acesso](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/tree/main/scripts-aula)
 
 <!-- - [Baixe o repositório do GitHub](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/archive/refs/heads/main.zip)  -->
 
