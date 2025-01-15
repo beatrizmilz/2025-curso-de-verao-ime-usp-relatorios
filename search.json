@@ -147,7 +147,7 @@
     "href": "plataforma-usp.html#acesso-às-aulas-gravadas",
     "title": "2  Informações sobre a Plataforma de Extensão da USP",
     "section": "2.4 Acesso às aulas gravadas",
-    "text": "2.4 Acesso às aulas gravadas\nAs aulas serão gravadas e disponibilizadas para as pessoas participantes. Para acessar as aulas gravadas, acesse a página de acesso às aulas síncronas.",
+    "text": "2.4 Acesso às aulas gravadas\nAs aulas serão gravadas e disponibilizadas para as pessoas participantes. Para acessar as aulas gravadas, acesse a página de acesso às aulas síncronas, e então clique em “ver histórico”:\n\n\n\n\n\nEntão clique em “Gravadas” para filtrar apenas as chamadas que foram gravadas, e então clique no botão de “Play” para acessar a gravação da aula desejada:\n A plataforma encaminhará para uma página onde é possível assistir ao vídeo e acompanhar as perguntas e conversas no chat:",
     "crumbs": [
       "Pré-curso",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Informações sobre a Plataforma de Extensão da USP</span>"
@@ -233,45 +233,56 @@
   {
     "objectID": "slides.html",
     "href": "slides.html",
-    "title": "5  Slides e materiais por aula",
+    "title": "5  Materiais por aula",
     "section": "",
     "text": "5.1 Revisão de conceitos úteis",
     "crumbs": [
       "Materiais",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
     ]
   },
   {
     "objectID": "slides.html#revisão-de-conceitos-úteis",
     "href": "slides.html#revisão-de-conceitos-úteis",
-    "title": "5  Slides e materiais por aula",
+    "title": "5  Materiais por aula",
     "section": "",
     "text": "O que é o R?\nO que é o RStudio?\nVersões gratuitas do RStudio\nO que é o tidyverse?",
     "crumbs": [
       "Materiais",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
+    ]
+  },
+  {
+    "objectID": "slides.html#scripts-de-práticas-em-aula",
+    "href": "slides.html#scripts-de-práticas-em-aula",
+    "title": "5  Materiais por aula",
+    "section": "5.2 Scripts de práticas em aula",
+    "text": "5.2 Scripts de práticas em aula\n\nAcesso",
+    "crumbs": [
+      "Materiais",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
     ]
   },
   {
     "objectID": "slides.html#slides",
     "href": "slides.html#slides",
-    "title": "5  Slides e materiais por aula",
-    "section": "5.2 Slides",
-    "text": "5.2 Slides\n\nIntrodução ao Curso\nIntrodução ao Quarto\nIntrodução ao conceito de reprodutibilidade\nElementos úteis para relatórios acadêmicos\nRelatórios com parâmetros",
+    "title": "5  Materiais por aula",
+    "section": "5.3 Slides",
+    "text": "5.3 Slides\n\nIntrodução ao Curso\nIntrodução ao Quarto\nIntrodução ao conceito de reprodutibilidade\nElementos úteis para relatórios acadêmicos\nRelatórios com parâmetros",
     "crumbs": [
       "Materiais",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
     ]
   },
   {
     "objectID": "slides.html#materiais-antigos",
     "href": "slides.html#materiais-antigos",
-    "title": "5  Slides e materiais por aula",
-    "section": "5.3 Materiais antigos",
-    "text": "5.3 Materiais antigos\n\nIntrodução ao RMarkdown",
+    "title": "5  Materiais por aula",
+    "section": "5.4 Materiais antigos",
+    "text": "5.4 Materiais antigos\n\nIntrodução ao RMarkdown",
     "crumbs": [
       "Materiais",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Slides e materiais por aula</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
     ]
   }
 ]
