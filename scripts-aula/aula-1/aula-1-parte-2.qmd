@@ -1,0 +1,103 @@
+---
+title: "Aula 1 - Parte 2"
+author: "Beatriz"
+format: html
+date: today
+lang: pt
+toc: true # https://quarto.org/docs/reference/formats/html.html#table-of-contents
+toc-location: body 
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(dados)
+```
+
+```{r}
+combinar_palavras <- function(vetor){
+  knitr::combine_words(vetor,
+                       and = " e ",
+                       oxford_comma = FALSE )
+}
+```
+
+
+## Gráficos
+
+```{r}
+#| warning: false 
+pinguins |> 
+  ggplot() +
+  aes(x = comprimento_nadadeira, y = massa_corporal) +
+  geom_point(aes(color = especie))
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(dados::pinguins) +
+ aes(x = comprimento_nadadeira, y = massa_corporal, colour = especie) +
+ geom_point() +
+ scale_color_brewer(palette = "Dark2", direction = 1) +
+ labs(title = "grafico") +
+ theme_minimal()
+```
+
+## Código
+
+```{r}
+#| eval: false
+install.packages("esquisse")
+esquisse::esquisser()
+```
+
+
+## Resultados de código no texto (*inline code*)
+
+```{r}
+#| echo: false # esconde o codigo
+especies_de_pinguins <- unique(pinguins$especie)
+
+media_massa_arredondada <- round(mean(pinguins$massa_corporal, na.rm = TRUE) / 1000,
+      2)
+
+```
+
+
+A base que utilizamos para análise tem `r nrow(pinguins)` pinguins, de `r length(especies_de_pinguins)` espécies diferentes:  `r combinar_palavras(especies_de_pinguins)`. Os pinguins foram amostrados nas seguintes ilhas: `r combinar_palavras(unique(pinguins$ilha))`.
+
+Os dados foram coletados entre `r min(pinguins$ano)` e `r max(pinguins$ano)`.
+
+A média do peso corporal é de `r media_massa_arredondada` kg.
+
+
+
+
+
+
+
+## Para explorar nas próximas aulas
+
+-   para autoria: email, afiliação
+
+-   tabelas
+
+-   quadro
+
+
+-   imagens
+
+-   tabelas sínteses de regressão. com o pacote stargazer
+
+-   resultados de código no texto
+
+-   referências
+
+-   equações e expressões matemáticas com latex
+
+-   notas de rodapé
+
+-   fluxograma - mermaid
+
+- mapas com leaflet
