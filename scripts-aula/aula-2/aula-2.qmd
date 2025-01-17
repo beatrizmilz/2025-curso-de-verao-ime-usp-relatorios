@@ -1,0 +1,165 @@
+---
+title: "Aula 2 - Parte 2"
+# https://quarto.org/docs/journals/authors.html
+author: 
+  - name: "Beatriz Milz"
+    orcid: "0000-0002-3064-4486"
+    email: "milz.bea@gmail.com"
+    degrees:
+      - "PhD"
+    affiliations:
+      - name: "Universidade Federal do ABC"
+        city: "São Bernardo do Campo"
+        state: "SP"
+  - name: "Tatyane Paz Dominguez"
+    affiliations:
+      - name: "Universidade de São Paulo"
+        city: "São Paulo"
+        state: "SP"        
+    
+format: html
+date: today
+lang: pt
+toc: true # https://quarto.org/docs/reference/formats/html.html#table-of-contents
+toc-location: body 
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(dados)
+```
+
+```{r}
+combinar_palavras <- function(vetor){
+  knitr::combine_words(vetor,
+                       and = " e ",
+                       oxford_comma = FALSE )
+}
+```
+
+## Gráficos
+
+```{r}
+#| warning: false 
+pinguins |> 
+  ggplot() +
+  aes(x = comprimento_nadadeira, y = massa_corporal) +
+  geom_point(aes(color = especie))
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(dados::pinguins) +
+ aes(x = comprimento_nadadeira, y = massa_corporal, colour = especie) +
+ geom_point() +
+ scale_color_brewer(palette = "Dark2", direction = 1) +
+ labs(title = "grafico") +
+ theme_minimal()
+```
+
+## Código
+
+```{r}
+#| eval: false
+install.packages("esquisse")
+esquisse::esquisser()
+```
+
+## Resultados de código no texto (*inline code*)
+
+```{r}
+#| echo: false # esconde o codigo
+especies_de_pinguins <- unique(pinguins$especie)
+
+media_massa_arredondada <- round(mean(pinguins$massa_corporal, na.rm = TRUE) / 1000, 2)
+
+```
+
+A base que utilizamos para análise tem `r nrow(pinguins)` pinguins, de `r length(especies_de_pinguins)` espécies diferentes: `r combinar_palavras(especies_de_pinguins)`. Os pinguins foram amostrados nas seguintes ilhas: `r combinar_palavras(unique(pinguins$ilha))`.
+
+Os dados foram coletados entre `r min(pinguins$ano)` e `r max(pinguins$ano)`.
+
+A média do peso corporal é de `r media_massa_arredondada` kg.
+
+`r Sys.Date()`
+
+## Nota de rodapé
+
+Quero escrever uma nota de rodapé[^1].
+
+[^1]: Essa é uma nota de rodapé.
+
+## Imagens
+
+### com markdown
+
+[![](https://www.ime.usp.br/verao/assets/images/logo_verao.png){fig-align="center" width="30%"}](https://www.ime.usp.br/verao)
+
+[![Logo do ORCID](https://orcid.org/assets/vectors/orcid.logo.svg){fig-align="center" width="30%"}](https://orcid.org/)
+
+### com knitr
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-width: "50%"
+knitr::include_graphics("https://orcid.org/assets/vectors/orcid.logo.svg")
+```
+
+::: column-margin
+logo do orcid
+:::
+
+## Tabelas
+
+### com markdown
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+: legenda
+
+### com código
+
+```{r}
+pinguins_tab <- dados::pinguins |> 
+  count(especie, ilha)
+```
+
+
+```{r}
+knitr::kable(pinguins_tab, 
+             col.names = c("Espécie", "Ilha", "Número de pinguins"))
+```
+
+
+```{r}
+reactable::reactable(
+  pinguins, searchable = TRUE
+)
+```
+
+```{r}
+flextable::flextable(pinguins_tab)
+```
+
+```{r}
+# https://gt.rstudio.com/
+```
+
+
+
+## Para explorar nas próximas aulas
+
+-   referências (elementos acadêmicos)
+
+-   equações e expressões matemáticas com latex (elementos acadêmicos)
+
+-   fluxograma - mermaid
+
+-   mapas com leaflet

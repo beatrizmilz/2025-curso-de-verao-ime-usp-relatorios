@@ -1,0 +1,10 @@
+---
+title: "exemplo de relatorio"
+# https://quarto.org/docs/authoring/includes.html
+---
+
+
+{{< include importacao.qmd >}}
+
+
+{{< include analise.qmd >}}

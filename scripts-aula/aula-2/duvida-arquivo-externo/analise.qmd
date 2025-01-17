@@ -1,0 +1,10 @@
+
+## exemplo
+
+```{r}
+pinguins |> 
+  ggplot() +
+  aes(x = comprimento_nadadeira, y = massa_corporal) +
+  geom_point(aes(color = especie))
+```
+

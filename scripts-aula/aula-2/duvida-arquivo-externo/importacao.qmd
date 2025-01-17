@@ -1,0 +1,13 @@
+
+## Importação
+
+```{r}
+library(tidyverse)
+library(dados)
+```
+
+```{r}
+dados::pinguins
+```
+
+
