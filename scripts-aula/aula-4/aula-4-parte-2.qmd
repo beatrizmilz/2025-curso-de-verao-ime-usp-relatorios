@@ -1,0 +1,69 @@
+---
+title: Elementos acadêmicos
+format: 
+  docx:
+    reference-doc: word_template.docx
+bibliography: 
+  - references.bib
+  - packages.bib
+lang: pt
+csl: "abnt.csl"
+---
+
+<!-- [](aula-3.qmd#sec-expressoes) -->
+
+Neste documento, temos exemplos de expressões matemáticas (@sec-expressoes) e gráficos (@sec-graficos).
+
+
+## Expressões matemáticas {#sec-expressoes}
+
+$$
+\lim_{x \to \infty} x^2 = \infty
+$$
+
+Calcule o limite $\lim_{x \to \infty} x^2$ considerando que:
+
+$${\text{Média}=\frac {a_{1}+a_{2}+\cdots +a_{n}}{n}}$$
+
+## Gráficos {#sec-graficos}
+
+Na @fig-grafico-pinguins, utilizamos os pacotes `palmerpenguins` e `tidyverse` [@tidyverse2019; @R-palmerpenguins], e o software R [@r-core]:
+
+```{r}
+#| label: fig-grafico-pinguins
+#| fig-cap: "Gráfico de dispersão"
+#| code-fold: false
+#| warning: false
+#| message: false
+library(tidyverse) # <1>
+library(palmerpenguins) # <1>
+
+penguins |> # <2>
+  ggplot() +
+  aes(x = flipper_length_mm, y = body_mass_g) +
+  geom_point(aes(color = species, shape = species)) +
+  scale_color_manual(values = c("darkorange", "darkorchid", "cyan4")) + # <3> 
+  theme_minimal() # <2> 
+```
+
+Na @tbl-pinguins, temos os dados brutos:
+
+```{r}
+#| label: tbl-pinguins
+penguins |> 
+  count(species, island) |> 
+  flextable::flextable()
+```
+
+
+
+
+
+```{r}
+#| label: criar-bib-pacotes
+#| echo: false
+knitr::write_bib(
+  x = c("tidyverse", "palmerpenguins"),
+  file = "packages.bib"
+)
+```

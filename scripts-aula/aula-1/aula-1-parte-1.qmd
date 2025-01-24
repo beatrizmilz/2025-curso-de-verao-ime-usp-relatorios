@@ -3,6 +3,7 @@ title: "Aula 1"
 author: "Beatriz"
 format: html
 editor: visual
+# embed-resources: true
 ---
 
 ## Quarto

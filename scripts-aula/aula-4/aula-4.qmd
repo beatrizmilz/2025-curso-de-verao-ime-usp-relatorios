@@ -1,0 +1,36 @@
+---
+title: "Aula 4"
+format: 
+  html:
+    code-fold: true
+    code-tools: true
+lang: pt
+code-annotations: hover
+---
+
+::: {.callout-note collapse="true"}
+## Leia mais
+
+Mensagem que expande
+
+:::
+
+## Adicionando comentários no código
+
+```{r}
+#| code-fold: false
+#| warning: false
+#| message: false
+library(tidyverse) # <1>
+library(palmerpenguins) # <1>
+
+penguins |> # <2>
+  ggplot() +
+  aes(x = flipper_length_mm, y = body_mass_g) +
+  geom_point(aes(color = species, shape = species)) +
+  scale_color_manual(values = c("darkorange", "darkorchid", "cyan4")) + # <3> 
+  theme_minimal() # <2> 
+```
+1. Carregando os pacotes necessário.
+2. Código para gerar o gráfico.
+3. Usando uma paleta de cores manual.
