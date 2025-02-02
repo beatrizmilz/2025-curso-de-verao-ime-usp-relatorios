@@ -14,9 +14,9 @@ title: "Materiais por aula"
 
 ## Scripts de práticas em aula
 
-- [Acesso](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/tree/main/scripts-aula)
+- [Acesse os arquivos separadamente](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/tree/main/scripts-aula)
 
-- [Baixe o repositório do GitHub](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/archive/refs/heads/main.zip)
+- [Baixe o repositório do GitHub (`.zip`)](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/archive/refs/heads/main.zip)
 
 ## Slides
 
