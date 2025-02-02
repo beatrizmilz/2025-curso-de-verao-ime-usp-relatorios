@@ -1,0 +1,140 @@
+---
+title: "Dashboard"
+format: dashboard
+server: shiny
+---
+
+```{r}
+#| message: false
+library(abjData)
+library(tidyverse)
+```
+
+## {.sidebar}
+
+```{r}
+opcoes_ano <- unique(abjData::pnud_min$ano)
+opcoes_uf <- unique(abjData::pnud_min$uf_sigla)
+
+shinyWidgets::pickerInput(inputId = "ano_filtro", 
+                    label = "Ano: ", 
+                    selected = "2010",
+                    choices = opcoes_ano, 
+                    multiple = FALSE)
+
+shinyWidgets::pickerInput(inputId = "uf_filtro", 
+                    label = "UF: ", 
+                    selected = opcoes_uf[1],
+                    choices = opcoes_uf, 
+                    multiple = FALSE)
+
+
+```
+
+
+
+
+```{r}
+#| context: server
+# abjData::pnud_min
+
+dados <- shiny::reactive({
+  pnud_filtrado <- abjData::pnud_min |> 
+  dplyr::filter(ano == input$ano_filtro,
+                uf_sigla %in% input$uf_filtro) |> 
+    dplyr::slice_max(idhm, n = 10)
+})
+
+  
+```
+
+
+## Row
+
+```{r}
+# menores_idh_municipal <- dados() |> 
+#   slice_min(idhm, n = 10)
+```
+
+
+```{r}
+#| context: server
+output$grafico_maiores <- plotly::renderPlotly({
+  
+  # maiores_idh_municipal <- dados() |> 
+  # dplyr::slice_max(idhm, n = 10)
+  
+  grafico <- dados() |> 
+  ggplot2::ggplot() +
+  ggplot2::aes(x = idhm, y = muni_nm) +
+  ggplot2::geom_col() +
+  ggplot2::scale_x_continuous(limits = c(0, 1)) +
+  # ggplot2::geom_text(ggplot2::aes(label = uf_sigla), hjust = -0.2) +
+  ggplot2::theme_minimal()
+  
+  plotly::ggplotly(grafico)
+  
+
+})
+```
+
+```{r}
+plotly::plotlyOutput("grafico_maiores")
+```
+
+
+
+
+```{r}
+# menores_idh_municipal |> 
+#   ggplot() +
+#   aes(x = idhm, y = muni_nm) +
+#   geom_col() +
+#   scale_x_continuous(limits = c(0, 1)) +
+#   geom_text(aes(label = uf_sigla), hjust = -0.2) +
+#   theme_minimal()
+```
+
+<!-- ::: {.card} -->
+<!-- exemplo de card -->
+<!-- ::: -->
+
+## Row
+
+
+```{r}
+#| context: server
+
+output$mapa <- leaflet::renderLeaflet({
+  library(leaflet)
+
+# leaflet::providers
+
+dados() |> 
+ # dplyr::slice_sample(n = 10) |> 
+  leaflet() |> 
+  addProviderTiles(leaflet::providers$Esri.WorldImagery) |> 
+  addMarkers(lng = ~lon, lat = ~lat, 
+             popup = ~muni_nm)
+})
+```
+
+```{r}
+leaflet::leafletOutput("mapa")
+```
+
+
+```{r}
+# maiores_idh_municipal |> 
+#   select(muni_nm, uf_sigla, regiao_nm, idhm) |> 
+#   reactable::reactable()
+```
+
+
+```{r}
+# menores_idh_municipal |> 
+#   select(muni_nm, uf_sigla, regiao_nm, idhm) |> 
+#   reactable::reactable()
+```
+
+

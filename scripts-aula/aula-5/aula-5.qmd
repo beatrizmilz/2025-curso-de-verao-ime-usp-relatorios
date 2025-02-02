@@ -1,0 +1,48 @@
+---
+title: "Relatório com parâmetros"
+format: html
+params:
+  especie: "Adelie"
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(palmerpenguins)
+```
+
+```{r}
+# unique(penguins$species)
+```
+
+```{r}
+params$especie
+```
+
+
+
+```{r}
+# pinguins_filtrados <- penguins |> 
+#   filter(species == "Adelie")
+
+pinguins_filtrados <- penguins |> 
+  filter(species == params$especie)
+```
+
+```{r}
+#| warning: false
+#| message: false
+tabela_massa <- pinguins_filtrados |> 
+  group_by(species, island) |> 
+  summarise(
+    quantidade = n(),
+    min_massa = min(body_mass_g, na.rm = TRUE),
+    media_massa = mean(body_mass_g, na.rm = TRUE),
+    max_massa = max(body_mass_g, na.rm = TRUE)) |> 
+  ungroup()
+```
+
+```{r}
+tabela_massa |> 
+  knitr::kable()
+```

@@ -1,0 +1,73 @@
+---
+title: "Dashboard"
+format: dashboard
+---
+
+```{r}
+#| message: false
+library(abjData)
+library(tidyverse)
+```
+
+
+```{r}
+
+# abjData::pnud_min
+
+pnud_filtrado <- abjData::pnud_min |> 
+  filter(ano == max(ano))
+  
+```
+
+
+## Row
+
+```{r}
+maiores_idh_municipal <- pnud_filtrado |> 
+  slice_max(idhm, n = 10)
+
+menores_idh_municipal <-pnud_filtrado |> 
+  slice_min(idhm, n = 10)
+```
+
+
+```{r}
+maiores_idh_municipal |> 
+  ggplot() +
+  aes(x = idhm, y = muni_nm) +
+  geom_col() +
+  scale_x_continuous(limits = c(0, 1)) +
+  geom_text(aes(label = uf_sigla), hjust = -0.2) +
+  theme_minimal()
+```
+
+```{r}
+menores_idh_municipal |> 
+  ggplot() +
+  aes(x = idhm, y = muni_nm) +
+  geom_col() +
+  scale_x_continuous(limits = c(0, 1)) +
+  geom_text(aes(label = uf_sigla), hjust = -0.2) +
+  theme_minimal()
+```
+
+<!-- ::: {.card} -->
+<!-- exemplo de card -->
+<!-- ::: -->
+
+## Row
+
+```{r}
+maiores_idh_municipal |> 
+  select(muni_nm, uf_sigla, regiao_nm, idhm) |> 
+  reactable::reactable()
+```
+
+
+```{r}
+menores_idh_municipal |> 
+  select(muni_nm, uf_sigla, regiao_nm, idhm) |> 
+  reactable::reactable()
+```
+
+
