@@ -88,11 +88,22 @@
     ]
   },
   {
+    "objectID": "index.html#equipe",
+    "href": "index.html#equipe",
+    "title": "Relatórios reprodutíveis com R (2025)",
+    "section": "1.8 Equipe",
+    "text": "1.8 Equipe\n\nBeatriz Milz, Tatyane Paz Dominguez e Alan Silva.",
+    "crumbs": [
+      "Pré-curso",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
+    ]
+  },
+  {
     "objectID": "index.html#edições-passadas",
     "href": "index.html#edições-passadas",
     "title": "Relatórios reprodutíveis com R (2025)",
-    "section": "1.8 Edições passadas",
-    "text": "1.8 Edições passadas\n\nConfira a página do curso de 2024, 2023 e 2022.",
+    "section": "1.9 Edições passadas",
+    "text": "1.9 Edições passadas\n\nConfira a página do curso de 2024, 2023 e 2022.",
     "crumbs": [
       "Pré-curso",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Informações sobre o curso</span>"
@@ -257,7 +268,7 @@
     "href": "slides.html#scripts-de-práticas-em-aula",
     "title": "5  Materiais por aula",
     "section": "5.2 Scripts de práticas em aula",
-    "text": "5.2 Scripts de práticas em aula\n\nAcesso",
+    "text": "5.2 Scripts de práticas em aula\n\nAcesse os arquivos separadamente\nBaixe o repositório do GitHub (.zip)",
     "crumbs": [
       "Materiais",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
@@ -275,11 +286,22 @@
     ]
   },
   {
+    "objectID": "slides.html#para-revisar-consultar-e-ir-além",
+    "href": "slides.html#para-revisar-consultar-e-ir-além",
+    "title": "5  Materiais por aula",
+    "section": "5.4 Para revisar, consultar e ir além!",
+    "text": "5.4 Para revisar, consultar e ir além!\n\nDocumentação do Quarto\nLivro R para Ciência de Dados (2ed) por Hadley Wickham, Mine Çetinkaya-Rundel, e Garrett Grolemund.\n\nComunicar: Quarto\nComunicar: Formatos para Quarto\n\nLivro Zen do R (por Caio Lente + Curso-R):\n\n.RData e .Rhistory\nRproj e diretórios\nGit e GitHub\n\nMaterial do curso “R intermediário e pesquisa reprodutível” ministrado por Beatriz Milz\n\nReprodutibilidade e estruturação de projeto\nProdução de relatórios com Quarto\nIntrodução ao controle de versão com Git e GitHub\nProgramação funcional\n\nMaterial do workshop Introdução à GitHub para pesquisadores (em espanhol), por Beatriz Milz e Yanina Bellini.",
+    "crumbs": [
+      "Materiais",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
+    ]
+  },
+  {
     "objectID": "slides.html#materiais-antigos",
     "href": "slides.html#materiais-antigos",
     "title": "5  Materiais por aula",
-    "section": "5.4 Materiais antigos",
-    "text": "5.4 Materiais antigos\n\nIntrodução ao RMarkdown",
+    "section": "5.5 Materiais antigos",
+    "text": "5.5 Materiais antigos\n\nIntrodução ao RMarkdown",
     "crumbs": [
       "Materiais",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Materiais por aula</span>"
