@@ -16,7 +16,7 @@ title: "Materiais por aula"
 
 - [Acesso](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/tree/main/scripts-aula)
 
-<!-- - [Baixe o repositório do GitHub](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/archive/refs/heads/main.zip)  -->
+- [Baixe o repositório do GitHub](https://github.com/beatrizmilz/2025-curso-de-verao-ime-usp-relatorios/archive/refs/heads/main.zip)
 
 ## Slides
 
@@ -33,6 +33,27 @@ title: "Materiais por aula"
 
 <!-- -   [Feedbacks - Trabalho final](https://beatrizmilz.github.io/2025-curso-de-verao-ime-usp-relatorios/slides/06-feedback-trabalho-final.html) -->
 
+## Para revisar, consultar e ir além!
+
+- [Documentação do Quarto](https://quarto.org/)
+
+- [Livro R para Ciência de Dados (2ed)](https://pt.r4ds.hadley.nz/) por Hadley Wickham, Mine Çetinkaya-Rundel, e Garrett Grolemund.
+  - [Comunicar: Quarto](https://pt.r4ds.hadley.nz/quarto.html)
+  - [Comunicar: Formatos para Quarto](https://pt.r4ds.hadley.nz/quarto-formats.html)  
+
+- [Livro Zen do R (por Caio Lente + Curso-R)](https://curso-r.github.io/zen-do-r/):
+  - [.RData e .Rhistory](https://curso-r.github.io/zen-do-r/rdata-rhistory.html)
+  - [Rproj e diretórios](https://curso-r.github.io/zen-do-r/rproj-dir.html)
+  - [Git e GitHub](https://curso-r.github.io/zen-do-r/git-github.html)
+
+- Material do curso "R intermediário e pesquisa reprodutível" ministrado por Beatriz Milz
+  - [Reprodutibilidade e estruturação de projeto](https://ipeadata-lab.github.io/curso_r_intermediario_202501/reprodutibilidade.html)
+  - [Produção de relatórios com Quarto](https://ipeadata-lab.github.io/curso_r_intermediario_202501/relatorios.html)
+  - [Introdução ao controle de versão com Git e GitHub](https://ipeadata-lab.github.io/curso_r_intermediario_202501/git-github.html)
+  - [Programação funcional](https://ipeadata-lab.github.io/curso_r_intermediario_202501/programacao-funcional.html)
+  
+- Material do workshop [Introdução à GitHub para pesquisadores](https://git4researchers-latinr2024.netlify.app/) (em espanhol), por Beatriz Milz e Yanina Bellini.
+  
 
 ## Materiais antigos
 
